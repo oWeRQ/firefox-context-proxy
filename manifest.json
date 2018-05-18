@@ -1,0 +1,27 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Context Proxy",
+    "default_popup": "context.html",
+    "default_icon": {
+      "128": "identity.svg"
+    }
+  },
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/contextual-identities",
+  "manifest_version": 2,
+  "name": "Context Proxy",
+  "version": "1.0",
+  "permissions": [
+      "contextualIdentities",
+      "cookies",
+      "proxy",
+      "storage",
+      "<all_urls>"
+  ],
+  "icons": {
+    "128": "identity.svg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

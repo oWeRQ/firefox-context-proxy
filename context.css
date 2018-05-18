@@ -1,0 +1,40 @@
+html, body {
+  width: 350px;
+}
+
+.panel {
+  margin: .5em;
+}
+
+.row + .row {
+	margin-top: 1em;
+}
+
+.head {
+	margin-bottom: .5em;
+	padding-bottom: .2em;
+	border-bottom: 2px solid transparent;
+}
+.head img {
+	vertical-align: middle;
+	margin-top: -.25em;
+	margin-right: .3em;
+	height: 1.5em;
+}
+
+form {
+	display: flex;
+}
+form > * + * {
+	margin-left: .5em;
+}
+
+select {
+	width: 6em;
+}
+input[name=host] {
+	width: 9em;
+}
+input[name=port] {
+	width: 4em;
+}
