@@ -4,7 +4,8 @@
     "default_title": "Context Proxy",
     "default_popup": "context.html",
     "default_icon": {
-      "128": "identity.svg"
+      //"128": "identity.svg"
+      "16": "identity.png"
     }
   },
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/contextual-identities",
@@ -19,7 +20,8 @@
       "<all_urls>"
   ],
   "icons": {
-    "128": "identity.svg"
+    //"128": "identity.svg"
+    "16": "identity.png"
   },
   "background": {
     "scripts": ["background.js"]
